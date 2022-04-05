@@ -2,7 +2,7 @@ python_sources()
 
 pex_binary(
   name="lib1_pex",
-  entry_point="src/acme_corp/lib1/lib1_module.py:lib1func"
+  entry_point="src/acme_corp/lib1/lib1_module.py:lib1_func"
 )
 
 # python_distribution(
