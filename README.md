@@ -2,7 +2,7 @@
 
 trying to create a pants repo that uses namespace packages for "acme_corp"
 
-here is the projec tree:
+here is the project tree:
 
 ```
 ├── pants
