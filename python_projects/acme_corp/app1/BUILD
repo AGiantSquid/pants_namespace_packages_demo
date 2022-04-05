@@ -5,7 +5,7 @@ python_sources(
 
 pex_binary(
   name="app1_pex",
-  entry_point="app1_module:app1func1",
+  entry_point="acme_corp.app1.app1_module:app1_func1",
 )
 
 # python_distribution(

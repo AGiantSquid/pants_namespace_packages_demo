@@ -1,14 +1,16 @@
-python_sources()
+python_sources(
+
+)
 
 pex_binary(
   name="lib1_pex",
-  entry_point="src/acme_corp/lib1/lib1_module.py:lib1_func"
+  entry_point="acme_corp.lib1.lib1_module:lib1_func"
 )
 
 # python_distribution(
-#     name="lib1dist",
+#     name="lib1_dist",
 #     dependencies=[
-#         'acme_corp.lib1'
+#         'acme_corp/lib1:lib1'
 #     ],
 #     sdist=True,
 #     provides=python_artifact(
