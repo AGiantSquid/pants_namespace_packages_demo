@@ -2,7 +2,7 @@ python_sources()
 
 pex_binary(
     name="app1_pex",
-    entry_point="app1_module.py:app1_func1",
+    entry_point="app1_module1.py:app1_func1",
     dependencies=[
         'python_projects/acme_corp/lib1/src/acme_corp/lib1',
     ],

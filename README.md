@@ -10,21 +10,21 @@ here is the project tree:
 ├── python_projects
 │   └── acme_corp
 │       ├── app1
-│       │   ├── BUILD
 │       │   ├── pyproject.toml
 │       │   └── src
 │       │       └── acme_corp
 │       │           └── app1
-│       │               ├── app1_module.py
+│       │               ├── app1_module1.py
+│       │               ├── app1_module2.py
 │       │               ├── BUILD
 │       │               └── __init__.py
 │       └── lib1
-│           ├── BUILD
 │           ├── pyproject.toml
 │           └── src
 │               └── acme_corp
 │                   └── lib1
 │                       ├── BUILD
 │                       ├── __init__.py
-│                       └── lib1_module.py
+│                       ├── lib1_module1.py
+│                       └── lib1_module2.py
 ```
