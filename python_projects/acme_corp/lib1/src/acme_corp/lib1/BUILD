@@ -2,7 +2,7 @@ python_sources()
 
 pex_binary(
   name="lib1_pex",
-  entry_point="lib1_module.py:lib1_func"
+  entry_point="lib1_module1.py:lib1_func"
 )
 
 python_distribution(
@@ -16,4 +16,3 @@ python_distribution(
         version="0.0.0",
     ),
 )
-
