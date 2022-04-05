@@ -4,6 +4,7 @@ trying to create a pants repo that uses namespace packages for "acme_corp"
 
 here is the projec tree:
 
+```
 ├── pants
 ├── pants.toml
 └── python_projects
@@ -24,3 +25,4 @@ here is the projec tree:
                     └── lib1
                         ├── __init__.py
                         └── lib1_module.py
+```
