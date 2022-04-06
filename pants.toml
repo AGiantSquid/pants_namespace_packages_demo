@@ -8,6 +8,3 @@ use_deprecated_python_macros = false
 
 [anonymous-telemetry]
 enabled = false
-
-[source]
-# marker_filenames = ["pyproject.toml"]
