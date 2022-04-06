@@ -1,4 +1,4 @@
-# pants namespace packages demo
+# Pants Namespace Packages Demo
 
 This demonstrates how to set up a python monorepo that uses namespace packages.
 
