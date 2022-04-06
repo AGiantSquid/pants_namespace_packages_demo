@@ -69,3 +69,7 @@ To run tests:
 ```
 ./pants test ::
 ```
+
+# Medium Article explaining development
+
+https://medium.com/@ashley.e.shultz/python-monorepo-with-pants-74f51fbfa6b6
