@@ -1,8 +1,17 @@
-# pants_test
+# pants namespace packages demo
 
-trying to create a pants repo that uses namespace packages for "acme_corp"
+This demonstrates how to set up a python monorepo that uses namespace packages.
 
-here is the project tree:
+The goal is to create a set of packages for a fake company "acme_corp".
+All packages will live in the namespace `acme_corp`. (e.g. `from acme_corp.lib1 import lib1_module1`)
+A user should be able to install a subset of the packages in the namespace, or all of them if they so choose.
+
+# Overview
+
+The project tree is shown below.
+
+Notice that the python files for `app1` are nested in the following directory: `src/acme_corp/app1`. Pants will automatically look for project roots when it sees `src/` in the path. This is what will allow `app1` to be imported from the `acme_corp` namespace.
+
 
 ```
 ├── pants
@@ -33,6 +42,8 @@ here is the project tree:
                     ├── lib1_module1_test.py
                     └── lib1_module2_test.py
 ```
+
+# Useful commands
 
 To run `lib1` pex:
 ```
