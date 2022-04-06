@@ -28,3 +28,23 @@ here is the project tree:
 │                       ├── lib1_module1.py
 │                       └── lib1_module2.py
 ```
+
+To run `lib1` pex:
+```
+./pants run python_projects/acme_corp/lib1/src/acme_corp/lib1:lib1_pex
+```
+
+To run `app1` pex:
+```
+./pants run python_projects/acme_corp/app1/src/acme_corp/app1:app1_pex
+```
+
+To build `lib1` sdist:
+```
+./pants package python_projects/acme_corp/lib1/src/acme_corp/lib1:lib1_dist
+```
+
+To build `app1` sdist:
+```
+./pants package python_projects/acme_corp/app1/src/acme_corp/app1:app1_dist
+```
