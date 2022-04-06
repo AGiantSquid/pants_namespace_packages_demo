@@ -48,3 +48,8 @@ To build `app1` sdist:
 ```
 ./pants package python_projects/acme_corp/app1/src/acme_corp/app1:app1_dist
 ```
+
+To run tests:
+```
+./pants test ::
+```
